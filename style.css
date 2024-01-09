@@ -244,33 +244,65 @@ footer{
     background: #070211;
 }
 
-.footer-section{
-   
+.footer{
+    margin: auto;
 }
 
 .address{
+    display: flex;
     justify-content: space-between;
-    padding-left: 250px;
-    padding-top: 60px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500; 
-    /* line-height: 40px;  */
-}
-
-.web-address{
-    list-style: none;
-    text-align:right;
-    padding-right: 250px;
-    padding-top: 0px;
-    padding-bottom: 400px;
+    align-items:center;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-
 }
 
+.address1{
+    padding-left: 200px;
+    padding-top: 120px;
+    line-height: 40px;
+}
 
+.address2{
+    padding-right: 200px;
+    padding-top: 120px;
+    line-height: 40px;
+    
+}
+
+.address2 > ul{
+    list-style: none;
+}
+
+hr{
+    width: 1320px;
+    border: 1px solid rgba(29, 29, 61, 0.566);
+    margin-bottom: 35px;
+    margin-top:35px;
+}
+
+.social-image{
+    text-align: center;
+}
+
+.address-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.address3{
+    padding-left:200px;
+    line-height: 45px;
+}
+
+.address4{
+    padding-right: 200px;
+    line-height: 45px;
+}
 
