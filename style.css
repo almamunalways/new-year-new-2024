@@ -15,13 +15,262 @@ header{
     width: auto;
 }
 
+.content{
+    padding: 170px 383px 340px 340px;
+}
+.con-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400; 
+}
+
+.con-full-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.discount-offer{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.discount-heading{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 45px;
+    }
+
+.discount-catagories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-content{
+    margin: auto;
+    Width: 805px;
+}
+
+/* Welcome to party section */
+
+.midnight2{
+    display: flex;
+    padding-left: 126px;
+    padding-top: 70px;
+    padding-right:130px;
+    gap: 95px;
+}
+
 .midnight{
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
     height:600px;
 }
 
-.rectangle{
+.party-content{
+    /* padding-left: 126px;
+    padding-top: 95px; */
+
+}
+.party-heading{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.party-para{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.party-btn{
+    color: #FFF;
+    background:none;
+    border: none;
+    padding-left: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    }
+
+    .image24{
+        
+    }
+
+/* .rectangle{
     background-image: url('resources/Rectangle\ 2.png');
     height: 229px;
+} */
+
+
+/* Our Awesome Portfolio start */
+
+.portfolio-heading{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
+
+.portfolio-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+}
+
+.portfolio-desc{
+    color: rgba(7, 2, 17, 0.817);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px; 
+}
+
+
+.portfolio-image{
+    display: flex;
+}
+
+.picpng{
+    padding: 12px;
+}
+.picpng:hover{
+    /* background: #9c8f8f23; */
+
+    opacity:80%;
+}
+
+/* Subscribe Newsletter Section */
+
+.newsletter-background{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.mailbox{
+   
+}
+.newsletter-head{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top:0;
+    padding-bottom: 0;
+    }
+
+.newsletter-text{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    padding-top: 0;
+}
+
+.Subscribe-form{
+    
+}
+
+.subscrib-input{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 25px 245px 25px 25px;
+    width: 450px;
+    height: 72px;
+    color: rgba(3, 0, 8, 0.868);
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    }
+
+.subscrib-btn{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 210px;
+    height: 72px;
+    background: #F00;
+}
+
+.subscrib-btn-span{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    }
+
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Footer section start */
+
+footer{
+    margin: auto;
+    max-width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+
+.footer-section{
+   
+}
+
+.address{
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-top: 60px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500; 
+    /* line-height: 40px;  */
+}
+
+.web-address{
+    list-style: none;
+    text-align:right;
+    padding-right: 250px;
+    padding-top: 0px;
+    padding-bottom: 400px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+
 
