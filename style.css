@@ -6,7 +6,7 @@ section{
     margin-top: 120px;
     border-radius: 16px;
 }
-
+            /* New year party start */
 header{
     
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
@@ -15,6 +15,7 @@ header{
     width: auto;
     border-radius: 16px;
 }
+             /* New year party end */
 
 .content{
     padding: 170px 383px 340px 340px;
@@ -65,7 +66,7 @@ header{
     Width: 805px;
 }
 
-/* Welcome to party section */
+/* Welcome party section start */
 
 .midnight2{
     display: flex;
@@ -108,8 +109,10 @@ header{
     font-size: 20px;
     font-weight: 700;
     }
+                 /* Welcome party section End */
 
-    /* Location and time/New Park Hotel */
+
+              /* Location and time/New Park Hotel start */
 
     .place{
         width: 1320px;
@@ -148,9 +151,10 @@ header{
         font-size: 20px;
         font-weight: 700;
         text-transform: uppercase;
-    }
+    }  
+                /* Location and time/New Park Hotel End  */
 
-    /* The Coming Soon Start */
+                /* The Coming Soon Start */
 
     .comingsoon-content{
         width: 1320px;
@@ -207,15 +211,16 @@ header{
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 32px; /* 160% */
+        line-height: 32px; 
      }
      .image-2024{
         width: 140px;
         height: 140px;        
-     }
+     }       
+                     /* The Coming Soon End */
 
 
-     /* Holidays Sale Section 1 Start */
+                /* Holidays Sale Section Start */
 
 .holyday-content-one{
     text-align: center;
@@ -249,7 +254,7 @@ header{
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 160% */
+    line-height: 32px; 
 }
 
  .holidays-images{
@@ -280,9 +285,9 @@ header{
 .box{
     
 }
+                /* Holidays Sale Section End */
 
-
-/* Our Awesome Portfolio start */
+               /* Our Awesome Portfolio start */
 
 .portfolio-heading{
     color: #F00;
@@ -317,7 +322,9 @@ header{
     opacity:80%;
 }
 
-/* Subscribe Newsletter Section */
+                  /* Our Awesome Portfolio End */
+
+            /* Subscribe Newsletter Section start */
 
 .newsletter-background{
     border-radius: 16px;
@@ -394,8 +401,9 @@ header{
     font-weight: 400;
     line-height: normal;
 }
+                /* Subscribe Newsletter Section */
 
-/* Footer section start */
+                  /* Footer section start */
 
 footer{
     margin: auto;
@@ -464,5 +472,11 @@ hr{
 .address4{
     padding-right: 200px;
     line-height: 45px;
-}
+}        
+      
+                          /* Footer section  */
+
+
+
+                          /* End */
 
