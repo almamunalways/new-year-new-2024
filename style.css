@@ -79,6 +79,9 @@ header{
     background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
     height:600px;
 }
+.image-div24{
+    
+}
 
 .party-heading{
     color: #FFF;
@@ -179,14 +182,17 @@ header{
         line-height: 32px; 
      }
 
-     .circle-image{
-    
-     }
+    .circle-image{
+        margin: 0px;
+        padding: 0px 118px 0px 70px;
+    }
 
-
-     .comming-soon-2024{
-
-     }
+    .circle-main-image{
+        padding: 25px;
+        object-fit: cover;
+        border: #FF0000 solid 13px;
+        border-radius: 50%;
+    }
 
      .twentyfour-heading{
         color: #F00;
@@ -209,66 +215,71 @@ header{
      }
 
 
-     /* Holidays Sale Section Start */
+     /* Holidays Sale Section 1 Start */
 
-.rectangle{
-    /* box-sizing: border-box;
-    margin: auto; */
+.holyday-content-one{
+    text-align: center;
 }
 
-.rectangle{
-    /* height: 40vh;
+    .holyday-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
 
-    background-position: 
-    top 50px right 30px,
-    bottom 20px left 25px,
-    bottom 70px right 155px,
-    bottom;
+.holiday-span{
+    color: #F00;
+}
+.holiday-head{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
 
-    background-size:
-    56px, 47px;
+.holiday-para{
+    width: 1068px;
+    margin: auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+ .holidays-images{
+    position: relative;
+    margin-top: 56px;
+    height:650px;
+    margin-right: 140px;
+}
+
+.ractiangle-box{
+    position: absolute;
+    top: 430px;
+    z-index: -1;
+}
+
+.thegirl{
+    position: absolute;
+    bottom: 215px;
+    left: 890px;
+}
+
+.discount{
+    position: absolute;
+    top: 86px;
+    left: 715px;
+    z-index: 1;
+} 
+.box{
     
-    background-repeat: no-repeat;
-
-    background-image: 
-    url(resources/Rectangle\ 1.png),
-    url(resources/Group\ 75.png),
-    url(resources/Group\ 44.png)
-    url(resources/Rectangle\ 2.png);  */
 }
-
-.rac-main{
-    background-image: url(resources/Rectangle\ 2.png);
-}
-
-
-
-/* .image-one{
-    width: 100%;
-    height: 400px;
-    background-image: url('resources/Rectangle\ 1.png'), url('resources/Group\ 44.png'), url('resources/Group\ 75.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 
-    bottom right, */
-   
-    
-    ;
-   
-
-
-.holidays-picture{
-     
-}
-.holidays-images{
-    
-}
-
-.holidays-image1{
-   
-}
-
-
-
 
 
 /* Our Awesome Portfolio start */
@@ -303,8 +314,6 @@ header{
     padding: 12px;
 }
 .picpng:hover{
-    /* background: #9c8f8f23; */
-
     opacity:80%;
 }
 
